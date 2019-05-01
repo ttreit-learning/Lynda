@@ -9,21 +9,34 @@
 
 # if __name__ == '__main__': main()
 
-# 7.2
+#Why does this print meow?
 def main():
-    x = 5
-    print(id(x))
-    kitten(x)
-    print(f'in main: x is {x}')
+    print("Hello World!")
+    x = kitten()
+    # print(x)
 
-def kitten(n):
-    print(id(n))
-    n = 3
-    print(id(n))
+def kitten():
     print('Meow.')
-    print(n)
 
 if __name__ == '__main__': main()
+
+
+
+# 7.2
+# def main():
+#     x = 5
+#     print(id(x))
+#     kitten(x)
+#     print(f'in main: x is {x}')
+
+# def kitten(n):
+#     print(id(n))
+#     n = 3
+#     print(id(n))
+#     print('Meow.')
+#     print(n)
+
+# if __name__ == '__main__': main()
 
 # 7.1
 # def main():
