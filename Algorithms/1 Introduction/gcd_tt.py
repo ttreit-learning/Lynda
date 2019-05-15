@@ -14,6 +14,9 @@ def gcd(larger_num, smaller_num):
             larger_num = smaller_num
             smaller_num = remainder 
         
-gcd(8, 2)
-gcd(200, 16)
+# gcd(8, 2)
+# gcd(200, 16)
 gcd(20, 8)
+gcd(8, 20)
+gcd(96, 60)
+gcd(60, 96)
